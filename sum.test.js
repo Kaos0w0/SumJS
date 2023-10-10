@@ -7,3 +7,7 @@ test('sums two numbers', () => {
 test('sums two numbers', () => {
   expect(sum(10, 2)).toBe(12);
 });
+
+test('sums two numbers', () => {
+  expect(sum(-10, -2)).toBe(-12);
+});
